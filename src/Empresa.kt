@@ -219,7 +219,7 @@ class Empresa {
         var num = 0
         while (!comprobar) {
             for (i in elementos.indices) {
-                println(i + 1 + ". " + elementos[i])
+                println("${i+1}. " + elementos[i])
             }
             num = entrada.nextInt()
             entrada.nextLine()

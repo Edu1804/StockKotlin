@@ -1,4 +1,6 @@
 import yahoofinance.Stock
+import yahoofinance.YahooFinance
+import java.math.BigDecimal
 
 /*
 This class have been created ir order to put everything related with the YahooFinance API

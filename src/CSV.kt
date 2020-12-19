@@ -1,6 +1,7 @@
 import com.opencsv.*
+import java.io.FileReader
 
-object csv {
+object CSV {
     private const val CSV_FILE_PATH = "C:\\Users\\Eduardo\\Documents\\CSV\\pruebacsv.csv"
     private const val CSV_FILE_CUSTOM_SEPERATOR = "C:\\Users\\Eduardo\\Documents\\CSV\\pruebacsv.csv"
     private const val csvFile = "C:\\Users\\Eduardo\\Documents\\CSV\\pruebacsv.csv"
