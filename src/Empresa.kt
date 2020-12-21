@@ -8,7 +8,6 @@ import java.math.RoundingMode
 import java.util.*
 
 class Empresa {
-    //Many getters and setters that are used in many classes
     //Main attributes that are not expected to change during the execution of the code
     var nombre: String
         private set

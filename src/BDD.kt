@@ -15,10 +15,11 @@ object BDD {
     //Function that provides the connection with our Database in MySQL
     //Sometimes, there is an error related with the 'Time Zone'
     //Just execute this query in mysql: SET GLOBAL time_zone = '+1:00'; (for Spain)
+
     fun inicializarConexion() {
         val dbUrl = "jdbc:mysql://localhost:3306/stock?useSSL=false"
-        val user = "stockuser"
-        val pass = "stockuser"
+        val user = "connectionDBA"
+        val pass = "Prueba456Prueba123"
         try {
             //Comunicación con la base de datos
             myConn = DriverManager.getConnection(dbUrl, user, pass)
